@@ -25,3 +25,4 @@ def top20_24h():
 
     usdt_pairs.sort(key=lambda x: x["change"], reverse=True)
     return usdt_pairs[:20]
+  
